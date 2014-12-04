@@ -57,6 +57,7 @@ public class SeaWorld extends World {
 		switch(level){
 		default:
 			getBackground().drawString("Level Complete!", WIDTH/2, HEIGHT/2);
+			getBackground().drawImage(new GreenfootImage("Level Score : " + Score.getScore(), 24, Color.WHITE,new Color(0,0,0,0)), WIDTH/2, HEIGHT/2);
 			isMenu=true;
 			break;
 		case 1:
