@@ -19,6 +19,9 @@ public class Score extends Actor {
 		score++;
 	}
 
+	public static int getScore(){
+		return score;
+	}
 
 
 
